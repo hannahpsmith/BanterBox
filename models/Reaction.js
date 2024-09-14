@@ -23,7 +23,7 @@ const reactionSchema = new Schema(
           type: Date,
           default: Date.now,
           get: (date) => moment(date).format('MM/DD/YYYY') 
-        };
+        },
     },
     {
         toJSON: { 
