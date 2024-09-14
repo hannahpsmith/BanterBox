@@ -25,7 +25,7 @@ module.exports = {
             res.status(500).json({ error, message: 'Internal server error.' });
             console.error(`Error: ${error}`);
         }
-      },
+    },
 
     async createThought(req, res) {
         try {
