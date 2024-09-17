@@ -5,10 +5,11 @@ const moment = require('moment');
 
 const reactionSchema = new Schema(
     {
-        reactionId: {
-          type: Schema.Types.ObjectId,
-          default: () => new mongoose.Types.ObjectId()
-        },
+      //unnecessary reactionId, "_id" already generated
+        // reactionId: {
+        //   type: Schema.Types.ObjectId,
+        //   default: () => new mongoose.Types.ObjectId()
+        // },
 
         reactionBody: {
           type: String,
